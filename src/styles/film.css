@@ -1,0 +1,122 @@
+#film .wrapper{
+    padding: 0 15px;
+    box-sizing: border-box;
+    background: #f9f9f9;
+}
+#film .pageNav{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+}
+#film .pageNav li{
+    flex: 1;
+    padding: 0 5px;
+    border-bottom: 1px solid #fe6e00;
+}
+#film .pageNav li.active{
+    color: #fe6e00;
+    border-width: 3px;
+}
+#film .list{
+    overflow: hidden;
+}
+#film .list li{
+    /* display: flex; */
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px dashed #c9c9c9;
+    cursor: pointer;
+}
+#film .list li .linkBox{
+    display: flex;
+    width: 100%;
+}
+#film .list li:last-child{
+    border: none;
+}
+#film .list li img{
+    display: block;
+    width: 60px;
+    height: 82px;
+}
+#film .list li .contentBox{
+    width: 70%;
+    padding-left: 15px;
+    position: relative;
+}
+#film .list li .contentBox div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#film .list li .contentBox div h3{
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 167px;
+    font-weight: normal;
+}
+#film .list li .contentBox div h4{
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 190px;
+    font-weight: normal;
+}
+#film .list li .contentBox div p{
+    display: flex;
+}
+#film .list li .contentBox div p span{
+    display: block;
+    font-size: 16px;
+    color: #fc7103;
+    line-height: 32px;
+}
+#film .list li .contentBox div p i{
+    display: block;
+    color: #c6c6c6;
+    font-size: 9px;
+    line-height: 32px;
+}
+#film .list li .contentBox .info{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    color: #8e8e8e;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#film .list li .contentBox .count{
+    display: flex;
+    justify-content: space-between;
+}
+#film .list li .contentBox .count span{
+    line-height: 24px;
+    font-size: 12px;
+    color: #8e8e8e; 
+}
+#film .list li .contentBox .count span i{
+    color: #8aa2bf;
+}
+#film .list li .contentBox .showAt{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    color: #ffb375;
+    font-size: 12px;
+}
+#film .list li .contentBox .showAt b{
+    margin-left: 14px;
+}

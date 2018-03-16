@@ -1,0 +1,50 @@
+#login{
+    background: #f6f6f6;
+}
+#login .loginBox{
+    padding: 0 31px;
+    overflow: hidden;
+}
+#login .loginBox .user, #login .loginBox .psd{
+    position: relative;
+    margin-top: 30px;
+}
+#login .loginBox .user input, #login .loginBox .psd input{
+    width: 100%;
+    display: block;
+    color: #555;
+    font-size: 14px;
+    padding: 6px 12px;
+    height: 34px;
+    box-sizing: border-box;
+    border: none;
+    background: #f6f6f6;
+    font-family: 'Microsoft YaHei', Tahoma, Helvetica, Arial, sans-serif;
+}
+#login .loginBox .user div, #login .loginBox .psd div{
+    position: absolute;
+    top: 20px;
+    height: 12px;
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    border-top: none;
+    box-sizing: border-box;
+}
+#login .loginBox button{
+    width: 163px;
+    line-height: 22px;
+    background: #fe8233;
+    color: #fff;
+    border: none;
+    border-radius: 36px;
+    margin-top: 61px;
+    padding: 8px 12px;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+}
+#login .loginBox button:active{
+    background: #e47630;
+}

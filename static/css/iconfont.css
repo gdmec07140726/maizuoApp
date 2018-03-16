@@ -1,0 +1,41 @@
+
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.ttf')
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-position:before { content: "\e604"; }
+
+.icon-menu:before { content: "\e667"; }
+
+.icon-3D:before { content: "\e64c"; }
+
+.icon-smallSell:before { content: "\e617"; }
+
+.icon-tel:before { content: "\e601"; }
+
+.icon-home:before { content: "\e60a"; }
+
+.icon-transit:before { content: "\e658"; }
+
+.icon-right:before { content: "\e630"; }
+
+.icon-ticket:before { content: "\e61e"; }
+
+.icon-down:before { content: "\e628"; }
+
+.icon-parking:before { content: "\e606"; }
+
+.icon-discount:before { content: "\e726"; }
+
+.icon-mine:before { content: "\e638"; }
+
+.icon-seat:before { content: "\e603"; }
+

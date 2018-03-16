@@ -1,0 +1,139 @@
+#cinemaDetail .wrapper{
+    background: #ebebeb;
+}
+#cinemaDetail .banner{
+    display: block;
+    width: 100%;
+}
+#cinemaDetail .info{
+    padding: 25px 17px 0;
+    background: #f9f9f9;
+    display: flex;
+    overflow: hidden;
+}
+#cinemaDetail .info i{
+    display: block;
+    margin: 15px 17px 0 0;
+    width: 28px;
+    height: 29px;
+    font-size: 26px;
+}
+#cinemaDetail .info i.seat{
+    color: #ff8160;
+}
+#cinemaDetail .info i.ticket{
+    color: #40b5b5;
+}
+#cinemaDetail .info i.position{
+    color: #7bafe1;
+}
+#cinemaDetail .info i.tel{
+    color: #df8f9f;
+}
+#cinemaDetail .info div{
+    flex: 1;
+    border-bottom: 1px dotted #d6d6d6;
+    padding-bottom: 25px;
+}
+#cinemaDetail .info div.tel{
+    border: none;
+}
+#cinemaDetail .info div h3{
+    font-size: 15px;
+    color: #000;
+    font-weight: normal;
+    margin: 20px 0 10px;
+    position: relative;
+}
+#cinemaDetail .info div h4{
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    margin: 10px 0;
+}
+#cinemaDetail .info div a{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    display: block;
+    width: 94px;
+    border-radius: 38px;
+    height: 34px;
+    font-size: 14px;
+    outline: none;
+    text-align: center;
+    line-height: 34px;
+}
+#cinemaDetail .info div a.seat{
+    background: #fe8233;
+    color: #fff;
+    border: none;
+}
+#cinemaDetail .info div a.booking{
+    background: #f9f9f9;
+    color: #ff8032;
+    border: 1px solid #ff8032;
+}
+#cinemaDetail .info div p{
+    color: #737373;
+    font-size: 12px;
+}
+#cinemaDetail .box{
+    width: 100%;
+    padding: 15px 0 30px;
+    background: #f9f9f9;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#cinemaDetail .box .services{
+    padding-left: 27px;
+    display: flex;
+}
+#cinemaDetail .services li{
+    width: 54px;
+    position: relative;
+    border-bottom: 1px solid #d6d6d6;
+}
+#cinemaDetail .services li div{
+    padding:  0 12px 5px;
+    font-size: 12px;
+    text-align: center;
+}
+#cinemaDetail .services li div i{
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 24px;
+    margin-bottom: 7px;
+    display: block;
+    box-sizing: border-box;
+    color: #cdcdcd;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+}
+#cinemaDetail .services li.active div i{
+    color: #fe8233;
+    border-color: #fe8233;
+}
+#cinemaDetail .services li div span{
+    display: block;
+    color: #737373;
+    width: 38px;
+}
+#cinemaDetail .services li b{
+    width: 100%;
+    height: 3px;
+    background: #ff8032;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+} 
+#cinemaDetail .box .des{
+    padding: 0 30px;
+    margin: 10px 0;
+    line-height: 18px;
+    color: #333;
+    font-size: 12px;
+}

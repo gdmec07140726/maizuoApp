@@ -1,0 +1,69 @@
+#ticket{
+    padding: 10px 10px 0 10px;;
+    box-sizing: border-box;
+    background: url(//static.m.maizuo.com/v4/static/app/asset/3c4771ba8ce431d164897b8a2d13a05e.png) repeat;
+}
+#ticket .wrapper{
+    background: url(//static.m.maizuo.com/v4/static/app/asset/3c4771ba8ce431d164897b8a2d13a05e.png) repeat;    
+}
+#ticket .ticket{
+    position: relative;
+    box-sizing: border-box;
+    min-width: 300px;
+    height: 123px;
+    padding-bottom: 15px;
+    background: url(//static.m.maizuo.com/v4/static/app/asset/d9f7005d18b8bc9e078e67e254f43771.png) no-repeat;
+}
+#ticket .ticket .box{
+    display: block;
+    background: url(//static.m.maizuo.com/v4/static/app/asset/3b6db1bce548e2e3302beac254b7c761.png) repeat;
+    margin: 0 18px;
+    display: flex;
+}
+#ticket .ticket .box .left{
+    width: 63%;
+    height: 108px;
+    background: url(//static.m.maizuo.com/v4/static/app/asset/a653f1c288140e0eaa63583bedce0ef8.png) repeat;
+}
+#ticket .ticket .box .left h3{
+    font-weight: normal;
+    color: #fff;
+    font-size: 16px;
+    margin: 28px 0 0 8px;
+    line-height: 24px;
+}
+#ticket .ticket .box .left p{
+    color: #fff;
+    opacity: 0.5;
+    margin: 5px 0 0 8px;
+    font-size: 12px;
+    line-height: 18px;
+}
+#ticket .ticket .box .right{
+    padding-left: 7%;
+    height: 108px;
+    text-align: center;
+    background: url(//static.m.maizuo.com/v4/static/app/asset/3b7a58f4c8015c7d060dc95fab608b4a.png) no-repeat;
+}
+#ticket .ticket .box .right h3{
+    font-weight: normal;
+    font-size: 16px;
+    color: #e36f0d;
+    margin: 28px 0 0 8px;
+    line-height: 24px;
+}
+#ticket .ticket .box .right p{
+    text-decoration: line-through;
+    color: #c6c6c6;
+    margin-left: 8px;
+    line-height: 18px;
+    font-size: 12px;
+}
+#ticket .ticket .box .rightBg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 18px;
+    background: url(//static.m.maizuo.com/v4/static/app/asset/b8ba6a7fc17c5729f063255c910e9812.png) no-repeat;
+}

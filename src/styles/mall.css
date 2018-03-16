@@ -1,0 +1,195 @@
+#mall{
+    background: #f2f2f2;
+    overflow: hidden;
+}
+#mall .wrapper{
+    background: #f2f2f2;
+}
+#mall .wrapper .swiper-slide img{
+    width: 100%;
+    display: block;
+}
+#mall .wrapper .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+}
+#mall .wrapper .swiper-pagination-bullets{
+    bottom: 7px;
+}
+#mall .wrapper .swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 10px!important;
+}
+#mall .wrapper .swiper-pagination-bullet-active{
+    background: #000;
+    opacity: 0.75;
+}
+#mall .shops{
+    width: 100%;
+    background: #fff;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#mall .shops li{
+    width: 25%;
+    margin: 8px auto;
+}
+#mall .shops li img{
+    display: block;
+    width: 40px;
+    margin: 0 auto;
+}
+#mall .shops li p{
+    text-align: center;
+    color: #323232;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 3px;
+}
+#mall .area{
+    widows: 100%;
+    margin-top: 8px;
+    background: #fff;
+    overflow: hidden;
+}
+#mall .area h3{
+    height: 13px;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    color: #323232;
+}
+#mall .area .contain{
+    padding: 0 10px;
+    display: flex;
+}
+#mall .area .contain div{
+    flex: 1;
+    padding: 10px 0;
+}
+#mall .area .contain div img{
+    width: 100%;
+    display: block;
+}
+#mall .area .contain .right img:first-child{
+    margin-bottom: 5px;
+}
+#mall .subject{
+    width: 100%;
+}
+#mall .subject .contain{
+    width: 100%;
+    background: #fff;
+    margin-top: 8px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#mall .subject .contain img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 3px;
+}
+#mall .subject .contain .list{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+#mall .subject .contain .list li{
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+    margin-right: 5px;
+    min-height: 156px;
+}
+#mall .subject .contain .list li h4{
+    font-weight: normal;
+    font-size: 12px;
+    color: #323232;
+    height: 11px;
+    margin: 12px 0;
+}
+#mall .subject .contain .list li p{
+    font-size: 13px;
+    color: #ff6640;
+    margin: 13px 0;
+}
+#mall .subject .contain .list li b{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    line-height: 50px;
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+    margin: 56px auto 0 auto;
+}
+#mall .recommend{
+    width: 100%;
+}
+#mall .recommend h1{
+    font-weight: normal;
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    color: #323232;
+    margin-bottom: -5px;
+    font-size: 13px;
+}
+#mall .recommend .contain{
+    min-height: 510px;
+    padding: 0 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+#mall .recommend .contain li{
+    margin-top: 5px;
+    width: 50%;
+}
+#mall .recommend .contain li a{
+    display: block;
+    background: #fff;
+}
+#mall .recommend .contain li:nth-child(odd) a{
+    margin-right: 2.5px;
+}
+#mall .recommend .contain li:nth-child(even) a{
+    margin-left: 2.5px;
+}
+#mall .recommend .contain li img{
+    width: 100%;
+}
+#mall .recommend .contain li h3{
+    font-weight: normal;
+    font-size: 12px;
+    height: 34px;
+    padding-left: 6px;
+    color: #323232;
+    overflow: hidden;
+}
+#mall .recommend .contain li p{
+    padding: 0 0 10px 6px;
+}
+#mall .recommend .contain li p span{
+    font-size: 13px;
+    color: #ff5000;
+}
+#mall .recommend .contain li p i{
+    font-size: 9px;
+    color: #999;
+    margin-left: 15px;
+}
+#mall .tips{
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    line-height: 18px;
+}
+#mall .tips.active{
+    padding: 10px 0;
+    font-size: 10px;
+}
